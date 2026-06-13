@@ -156,3 +156,37 @@ if (modalOverlay) {
         if (e.target === modalOverlay) closeModal();
     });
 }
+
+// =========================================
+// HAMBURGER MENU MOBILE
+// =========================================
+const mobileMenuBtn = document.getElementById('mobile-menu');
+const navMenu = document.getElementById('nav-menu');
+const navLinks = document.querySelectorAll('#nav-menu ul li a');
+
+if (mobileMenuBtn && navMenu) {
+    // Membuka/Menutup menu saat ikon hamburger diklik
+    mobileMenuBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        
+        // Animasi ganti ikon (dari garis tiga ke silang)
+        const icon = mobileMenuBtn.querySelector('i');
+        if(navMenu.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+        } else {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        }
+    });
+
+    // Menutup menu otomatis saat salah satu link diklik
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        });
+    });
+}

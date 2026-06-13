@@ -1123,61 +1123,69 @@ footer {
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* Menyembunyikan ikon hamburger di tampilan Laptop/Desktop */
+.menu-toggle {
+    display: none;
+}
+
 /* =========================================
    OPTIMASI MOBILE (SMARTPHONE)
 ========================================= */
 @media (max-width: 768px) {
-    /* 1. Mengurangi jarak tepi agar layar HP tidak termakan area kosong */
-    .page-section, .hero {
-        padding: 80px 25px;
-    }
-    header, footer {
-        padding-left: 25px;
-        padding-right: 25px;
+    
+    /* --- 1. Optimasi Ukuran HP (Kode Lama) --- */
+    .page-section, .hero { padding: 80px 25px; }
+    header, footer { padding-left: 25px; padding-right: 25px; }
+    .hero-left h1 { font-size: 38px; }
+    .hero-right h2 { font-size: 24px; }
+    .hero-image { max-width: 250px; }
+    .project-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 25px; }
+    .filter-btn { padding: 8px 16px; font-size: 12px; }
+    .project-filters { gap: 10px; }
+    .modal-container { width: 95%; max-height: 90vh; }
+    .main-image-wrapper { height: 220px; }
+    .modal-details { padding: 25px 20px; }
+    .modal-title { font-size: 22px; }
+    .modal-meta p { font-size: 12px; }
+
+    /* --- 2. HAMBURGER MENU (Kode Baru) --- */
+    .menu-toggle {
+        display: block;
+        font-size: 26px;
+        color: #fff;
+        cursor: pointer;
+        z-index: 101; 
     }
 
-    /* 2. Menyesuaikan teks Hero Section */
-    .hero-left h1 { 
-        font-size: 38px; 
-    }
-    .hero-right h2 { 
-        font-size: 24px; 
-    }
-    .hero-image { 
-        max-width: 250px; 
-    }
-
-    /* 3. Menyesuaikan Grid Project untuk layar kecil */
-    .project-grid {
-        /* Mengecilkan batas minimum kartu agar tidak meluber di HP kecil */
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-        gap: 25px;
+    #nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%; 
+        width: 75%;
+        height: 100vh;
+        background: rgba(10, 10, 10, 0.98);
+        border-left: 1px solid rgba(255, 255, 255, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        z-index: 100;
+        backdrop-filter: blur(10px);
     }
 
-    /* 4. Mengecilkan tombol filter agar muat sejajar */
-    .filter-btn {
-        padding: 8px 16px;
-        font-size: 12px;
-    }
-    .project-filters {
-        gap: 10px;
+    #nav-menu.active {
+        right: 0; 
     }
 
-    /* 5. Optimasi Pop-Up (Modal) di HP */
-    .modal-container {
-        width: 95%; /* Memaksimalkan lebar layar */
-        max-height: 90vh;
+    #nav-menu ul {
+        flex-direction: column; 
+        gap: 40px;
+        text-align: center;
     }
-    .main-image-wrapper {
-        height: 220px; /* Menyesuaikan tinggi gambar agar teks di bawahnya langsung terlihat */
+
+    #nav-menu a {
+        font-size: 20px;
+        font-weight: 600;
     }
-    .modal-details {
-        padding: 25px 20px;
-    }
-    .modal-title {
-        font-size: 22px; /* Judul proyek tidak mendominasi layar */
-    }
-    .modal-meta p {
-        font-size: 12px;
-    }
-}
+
+} /* <--- INI ADALAH KURUNG KURAWAL PENUTUP MILIK @MEDIA */
