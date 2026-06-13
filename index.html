@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Agil Herlambang Masadi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Gail<span>.</span></a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <p>Hello, I'm</p>
+                <h1>Agil Herlambang<br>Masadi</h1>
+            </div>
+            
+            <div class="hero-image-container">
+                <img src="assets/Foto Wisuda.png" alt="Agil Herlambang Masadi" class="hero-image">
+            </div>
+            
+            <div class="hero-right">
+                <h2>Water Resources, <br>Coastal Engineer</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- ABOUT SECTION TERPISAH --- -->
+    <section id="about" class="page-section">
+        <div class="section-container fade-scroll">
+            <div class="about-wrapper">
+                
+                <!-- Gambar dengan efek melayang & bingkai estetik -->
+                <div class="about-image-container">
+                    <div class="about-glow-box"></div>
+                    <img src="assets/Agil Bagong.jpeg" alt="Agil Herlambang Masadi" class="about-photo">
+                </div>
+                
+                <!-- Statement Teks yang sudah diperkecil -->
+                <div class="about-statement">
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <blockquote class="statement-text">
+                        "An Engineer who deeply passionate about environmental resilience, and on a mission to integrate advanced hydrological, hydraulic, and numerical modelling with practical engineering design to achieve sustainable development."
+                    </blockquote>
+                    
+                    <!-- TAMBAHAN: Skills & Tools Section -->
+                    <div class="skills-wrapper">
+                        <h3 class="skills-title"><i class="fas fa-toolbox"></i> Software & Tools</h3>
+                        <div class="skills-grid">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">HEC-RAS</span>
+                            <span class="skill-badge">HEC-HMS</span>
+                            <span class="skill-badge">Delft3D</span>
+                            <span class="skill-badge">Geostudio</span>
+                            <span class="skill-badge">Plaxis</span>
+                            <span class="skill-badge">QGIS</span>
+                            <span class="skill-badge">ArcGIS Pro</span>
+                            <span class="skill-badge">Global Mapper</span>
+                            <span class="skill-badge">AutoCAD</span>
+                            <span class="skill-badge">EPANET</span>
+                            <span class="skill-badge">WEAP</span>
+                            <span class="skill-badge">SWMM</span>
+                            <span class="skill-badge">MODFLOW6</span>
+                            <span class="skill-badge">iRIC</span>
+                            <span class="skill-badge">Auto CAD</span>
+                            <span class="skill-badge">Revit</span>
+                            <span class="skill-badge">Navisworks</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- EDUCATION SECTION TERPISAH --- -->
+    <section id="education" class="page-section">
+        <div class="section-container fade-scroll">
+            <h2 class="section-title text-center">My <span>Education</span></h2>
+            
+            <div class="education-card glass-card">
+                
+                <!-- Visual Kampus dengan efek Zoom Hover -->
+                <div class="edu-visuals">
+                    <img src="assets/ITB.webp" alt="ITB Campus" class="campus-bg">
+                    <div class="edu-overlay"></div>
+                    <!-- Silakan tambahkan logo ITB jika ada -->
+                    <!-- <img src="assets/itb-logo.png" alt="ITB Logo" class="campus-logo"> -->
+                </div>
+
+                <!-- Detail Pendidikan -->
+                <div class="edu-details">
+                    <h4 class="university-name">Bandung Institute of Technology</h4>
+                    
+                    <div class="degree-timeline">
+                        <!-- Master -->
+                        <div class="degree-item">
+                            <div class="degree-marker"></div>
+                            <div class="degree-content">
+                                <div class="degree-header">
+                                    <h5>Master of Engineering, Water Resources Management</h5>
+                                    <span class="badge badge-primary">Fast Track Program</span>
+                                </div>
+                                <span class="edu-date"><i class="far fa-calendar-alt"></i> Aug 2024 - Aug 2026</span>
+                            </div>
+                        </div>
+
+                        <!-- Bachelor -->
+                        <div class="degree-item">
+                            <div class="degree-marker"></div>
+                            <div class="degree-content">
+                                <div class="degree-header">
+                                    <h5>Bachelor of Engineering, Water Resources Engineering and Management</h5>
+                                    <span class="badge badge-accent">Cumlaude</span>
+                                </div>
+                                <span class="edu-date"><i class="far fa-calendar-alt"></i> Aug 2021 - Aug 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- --- PROJECTS SECTION --- -->
+    <section id="projects" class="page-section">
+        <div class="section-container fade-scroll">
+            <h2 class="section-title text-center">Featured <span>Projects</span></h2>
+            
+            <!-- Filter Tabs -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="work">Project Experience</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+                <button class="filter-btn" data-filter="competition">Competition</button>
+                <button class="filter-btn" data-filter="course">Course</button>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="project-grid"> 
+                
+                <!-- 1. KARTU PROJECT EXPERIENCE -->
+                <!-- 1.1 Bendungan Bagong -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Bagong Dam Construction Project Package 1 in Trenggalek Regency"
+                     data-date="Jun 2024 - Jul 2024"
+                     data-location="Trenggalek, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-HMS, QGIS, ArcGIS Pro, Geostudio"
+                     data-images='["assets/Bendungan Bagong/1.png", "assets/Bendungan Bagong/2.png", "assets/Bendungan Bagong/3.png", "assets/Bendungan Bagong/4.png", "assets/Bendungan Bagong/5.png", "assets/Bendungan Bagong/6.png", "assets/Bendungan Bagong/7.png", "assets/Bendungan Bagong/8.png", "assets/Bendungan Bagong/9.png", "assets/Bendungan Bagong/10.png", "assets/Bendungan Bagong/11.png", "assets/Bendungan Bagong/12.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Bendungan Bagong/1.jpeg" alt="DAM Project">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Bagong DAM Construction</h3>
+                        <p class="project-desc">Internship / Field Study</p>
+                    </div>
+                </div>
+
+                <!-- 1.2 SIBADES -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Scouring Cikaruncang Bridge Construction SIBADES HMS ITB"
+                     data-date="Aug 2024 - Dec 2024"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-HMS, QGIS, ArcGIS Pro, HEC-RAS"
+                     data-images='["assets/Cikaruncang Bridge/1.png", "assets/Cikaruncang Bridge/2.png", "assets/Cikaruncang Bridge/3.png", "assets/Cikaruncang Bridge/4.png", "assets/Cikaruncang Bridge/6.png", "assets/Cikaruncang Bridge/5.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Cikaruncang Bridge/1.jpg" alt="Cikaruncang Bridge">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Scouring Cikaruncang Bridge</h3>
+                        <p class="project-desc">Contract</p>
+                    </div>
+                </div>
+
+                <!-- 1.3 PT. Atrya Swacipta Rekayasa -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Surface Storm Water 
+                     Drainage at Pangkalan Kerinci Mill Site, Town Site I & II"
+                     data-date="Dec 2024 - Feb 2025"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="PCSWMM, QGIS"
+                     data-images='["assets/Drainage Pekanbaru/4.png", "assets/Drainage Pekanbaru/3.png", "assets/Drainage Pekanbaru/5.png", "assets/Drainage Pekanbaru/6.png", "assets/Drainage Pekanbaru/1.png", "assets/Drainage Pekanbaru/7.png", "assets/Drainage Pekanbaru/2.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Drainage Pekanbaru/3.png" alt="Storm Water Drainage">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Storm Water Drainage at Pangkalan Kerinci Mill Site</h3>
+                        <p class="project-desc">Freelance</p>
+                    </div>
+                </div>
+
+                <!-- 1.4 DSDA DKI JAKARTA -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Study of Water Balance for the Raw Water Potential of the Pesanggrahan, Angke, and Cengkareng Drain River Basins to Support the Revision of RISPAM and JAKSTRADA for SPAM Implementation in DKI Jakarta Province"
+                     data-date="Aug 2024 - Nov 2025"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-HMS, QGIS, ArcGIS Pro"
+                     data-images='["assets/DSDA DKI JAKARTA/1.png", "assets/DSDA DKI JAKARTA/2.png", "assets/DSDA DKI JAKARTA/3.png", "assets/DSDA DKI JAKARTA/4.png", "assets/DSDA DKI JAKARTA/5.png", "assets/DSDA DKI JAKARTA/6.png", "assets/DSDA DKI JAKARTA/7.png", "assets/DSDA DKI JAKARTA/8.png", "assets/DSDA DKI JAKARTA/9.png", "assets/DSDA DKI JAKARTA/10.png", "assets/DSDA DKI JAKARTA/11.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/DSDA DKI JAKARTA/1.jpg" alt="Water Balance">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Study of Water Balance for the Raw Water Potential</h3>
+                        <p class="project-desc">Contract</p>
+                    </div>
+                </div>
+
+                <!-- 1.5 Synergy Engineering -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Hydrology Study and Hydraulic Analysis Report for Storm Water Drainage at Kaliberau Dalam Field Development"
+                     data-date="Aug 2025 - Oct 2025"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-HMS, QGIS, MS Excel"
+                     data-images='["assets/Synergy/1.png", "assets/Synergy/2.png", "assets/Synergy/14.png", "assets/Synergy/15.png", "assets/Synergy/5.png", "assets/Synergy/6.png", "assets/Synergy/7.png", "assets/Synergy/8.png", "assets/Synergy/9.png", "assets/Synergy/10.png", "assets/Synergy/11.png", "assets/Synergy/12.png", "assets/Synergy/13.png", "assets/Synergy/3.png", "assets/Synergy/4.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Synergy/1.jpg" alt="Water Balance">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Surface Storm Water Drainage at Kaliberau Dalam Field Development </h3>
+                        <p class="project-desc">Freelance</p>
+                    </div>
+                </div>
+
+                <!-- 1.6 CIBE NINDYA -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Integrated design and build construction work for development National Salt Industry Center Area (K-SIGN) in Rote Ndao Regency"
+                     data-date="Oct 2025 - Dec 2025"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-RAS, QGIS, DELFT3D"
+                     data-images='["assets/Rote NDAO/1.png", "assets/Rote NDAO/2.png", "assets/Rote NDAO/3.png", "assets/Rote NDAO/4.png", "assets/Rote NDAO/5.png", "assets/Rote NDAO/6.png", "assets/Rote NDAO/7.png", "assets/Rote NDAO/8.png", "assets/Rote NDAO/9.png", "assets/Rote NDAO/10.png", "assets/Rote NDAO/11.png", "assets/Rote NDAO/12.png", "assets/Rote NDAO/13.png", "assets/Rote NDAO/14.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Rote NDAO/1.jpeg" alt="Salt Irrigation Pond">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Integrated Design and Build Construction Work for Development National Salt Industry Center Area</h3>
+                        <p class="project-desc">Contract</p>
+                    </div>
+                </div>
+
+                <!-- 1.7 SELF EMPLOYED -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Planning of Embankment and River Normalization for Bojen River Flood Control in Bojen Village, Pandeglang Regency, Banten Province"
+                     data-date="Nov 2025 - Mar 2026"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-RAS, QGIS, ArcGIS Pro, HEC-HMS, Geostudio"
+                     data-images='["assets/BOJEN/1.png", "assets/BOJEN/2.png", "assets/BOJEN/3.png", "assets/BOJEN/4.png", "assets/BOJEN/5.png", "assets/BOJEN/6.png", "assets/BOJEN/7.png", "assets/BOJEN/8.png", "assets/BOJEN/9.png", "assets/BOJEN/10.png", "assets/BOJEN/11.png", "assets/BOJEN/12.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/BOJEN/1.png" alt="Banjir Bojen">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Planning of Embankment and River Normalization for Bojen River Flood Control in Bojen Village.</h3>
+                        <p class="project-desc">Self Employed / Freelance</p>
+                    </div>
+                </div>
+
+                <!-- 1.8 KUAP RIVER DIVERSION -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Study of River Kuap Diversion"
+                     data-date="Feb 2025 - Apr 2026"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-RAS, QGIS, HEC-HMS, Geostudio"
+                     data-images='["assets/Kuap/1.png", "assets/Kuap/11.png", "assets/Kuap/2.png", "assets/Kuap/3.png", "assets/Kuap/4.png", "assets/Kuap/5.png", "assets/Kuap/6.png", "assets/Kuap/7.png", "assets/Kuap/8.png", "assets/Kuap/9.png", "assets/Kuap/10.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Kuap/1.png" alt="Kuap River">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Study of River Kuap Diversion</h3>
+                        <p class="project-desc">Freelance</p>
+                    </div>
+                </div>
+
+                <!-- 1.9 BINONG AND SEPATAN RIVER DIVERSION -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="Design Review and Technical Recommendation for Binong and Sepatan River Diversion"
+                     data-date="Feb 2026 - Apr 2026"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-RAS, QGIS, HEC-HMS, Geostudio"
+                     data-images='["assets/Jababeka/1.jpg", "assets/Jababeka/1.png", "assets/Jababeka/2.png", "assets/Jababeka/3.png", "assets/Jababeka/4.png", "assets/Jababeka/5.png", "assets/Jababeka/6.png", "assets/Jababeka/7.png", "assets/Jababeka/8.png", "assets/Jababeka/9.png", "assets/Jababeka/10.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Jababeka/1.jpg" alt="Binong and Sepatan Diversion">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">Binong and Sepatan River Diversion</h3>
+                        <p class="project-desc">Freelance</p>
+                    </div>
+                </div>
+
+                <!-- 1.10 ELLE Resort and Beach Club Project  -->
+                <div class="project-card glass-card" 
+                     data-category="work"
+                     data-fulltitle="ELLE Resort and Beach Club Storm Water Surface Drainage Project"
+                     data-date="Feb 2026 - Apr 2026"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="SWMM, QGIS"
+                     data-images='["assets/Elle Beach Club/1.jpg", "assets/Elle Beach Club/10.png", "assets/Elle Beach Club/1.png", "assets/Elle Beach Club/2.png", "assets/Elle Beach Club/3.png", "assets/Elle Beach Club/4.png", "assets/Elle Beach Club/5.png", "assets/Elle Beach Club/6.png", "assets/Elle Beach Club/7.png", "assets/Elle Beach Club/8.png", "assets/Elle Beach Club/9.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Elle Beach Club/1.jpg" alt="ELLE Resort and Beach Club">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-work">Project Experience</span>
+                        <h3 class="project-title">ELLE Resort and Beach Club Storm Water Surface Drainage Project</h3>
+                        <p class="project-desc">Freelance</p>
+                    </div>
+                </div>
+
+                <!-- 2. KARTU RESEARCH -->
+                <!-- 2.1 Bachelor Final Project -->
+                <div class="project-card glass-card" 
+                     data-category="research"
+                     data-fulltitle="Multi-Defense-Based Tsunami Mitigation in Gianyar, Bali"
+                     data-date="Jan 2025 - Apr 2025"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Delft3D, QGIS, Global Mapper, Plaxis, Geostudio"
+                     data-images='["assets/TA/1.png", "assets/TA/2.png", "assets/TA/3.png", "assets/TA/4.png", "assets/TA/16.png", "assets/TA/5.png", "assets/TA/6.png", "assets/TA/7.png", "assets/TA/8.png", "assets/TA/9.png", "assets/TA/10.png", "assets/TA/11.png", "assets/TA/12.png", "assets/TA/13.png", "assets/TA/14.png", "assets/TA/15.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/TA/1.webp" alt="Tsunami Mitigation">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-research">Research</span>
+                        <h3 class="project-title">Tsunami Mitigation Model</h3>
+                        <p class="project-desc">Bachelor, Final Project Research</p>
+                    </div>
+                </div>
+
+                <!-- 2.2 Master Thesis -->
+                <div class="project-card glass-card" 
+                     data-category="research"
+                     data-fulltitle="Assesment of the Impact Tsunami Induced Sediment Transport on the Coastal Area and Tsunami Embankment in Gianyar Sub-District, Bali Province. "
+                     data-date="Jan 2026 - Apr 2026"
+                     data-location="Bandung, Indonesia"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Delft3D, QGIS, Global Mapper"
+                     data-images='["assets/Thesis/1.png", "assets/Thesis/2.png", "assets/Thesis/3.png", "assets/Thesis/4.png", "assets/Thesis/5.png", "assets/Thesis/6.png", "assets/Thesis/7.png", "assets/Thesis/8.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Thesis/1.jpg" alt="Tsunami Sedimentation">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-research">Research</span>
+                        <h3 class="project-title">Tsunami Sedimentation Model</h3>
+                        <p class="project-desc">Master, Thesis Research</p>
+                    </div>
+                </div>
+
+                <!-- 3. KARTU COMPETITION -->
+                <!-- 3.1 ITS SURABAYA -->
+                <div class="project-card glass-card" 
+                     data-category="competition"
+                     data-fulltitle="1st Winner of Civil Innovation Competition College D’Village 13th Edition organized by Himpunan Mahasiswa Diploma Sipil, Institut Teknologi Sepulu Nopember"
+                     data-tools="Research, AutoCAD, QGIS"
+                     data-date="2024"
+                     data-location="ITS, Surabaya"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="SWMM, QGIS"
+                     data-images='["assets/DVILLAGE ITS/1.png", "assets/DVILLAGE ITS/2.png", "assets/DVILLAGE ITS/3.png", "assets/DVILLAGE ITS/4.png", "assets/DVILLAGE ITS/5.png", "assets/DVILLAGE ITS/5.png", "assets/DVILLAGE ITS/6.png", "assets/DVILLAGE ITS/7.png", "assets/DVILLAGE ITS/8.png", "assets/DVILLAGE ITS/9.png", "assets/DVILLAGE ITS/10.png", "assets/DVILLAGE ITS/11.png", "assets/DVILLAGE ITS/12.png", "assets/DVILLAGE ITS/13.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/DVILLAGE ITS/1.jpeg" alt="ITS SURABAYA">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-competition">Competition</span>
+                        <h3 class="project-title">1st Winner of Civil Innovation Competition College DVillage 13th Edition</h3>
+                        <p class="project-desc">Theme : “Urban Resilient Against Water Disaster”</p>
+                    </div>
+                </div>
+                <!-- 3.2 AGRIFASCO -->
+                <div class="project-card glass-card" 
+                     data-category="competition"
+                     data-fulltitle="Finalist AGRIFASCO ITB, Theme : “Embracing Agricultural Transformation Towards a Sustainable Future”"
+                     data-tools="Research, AutoCAD, QGIS"
+                     data-date="2024"
+                     data-location="ITB, Bandung"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="EXCEL"
+                     data-images='["assets/AGRIFASCO/1.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/AGRIFASCO/1.png" alt="ITS SURABAYA">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-competition">Competition</span>
+                        <h3 class="project-title">Finalist AGRIFASCO ITB, by Himarekta Agrapana</h3>
+                        <p class="project-desc">Theme : “Embracing Agricultural Transformation Towards a Sustainable Future”</p>
+                    </div>
+                </div>
+                <!-- 3.3 LOGRAK -->
+                <div class="project-card glass-card" 
+                     data-category="competition"
+                     data-fulltitle="Finalist LOGRAK POLINEMA, Theme : “Green Technology”"
+                     data-tools="Research, AutoCAD, QGIS"
+                     data-date="2024"
+                     data-location="ITB, Bandung"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-HMS, HEC-RAS"
+                     data-images='["assets/Lograk/1.jpg"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Lograk/1.jpg" alt="Lograk">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-competition">Competition</span>
+                        <h3 class="project-title">Finalist AGRIFASCO ITB, by Himarekta Agrapana</h3>
+                        <p class="project-desc">Theme : “Green Technology”</p>
+                    </div>
+                </div>
+                <!-- 4. KARTU COURSE -->
+                <!-- 4.1 UDEMY HECRAS -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="A step-by-step guide to building, running and interpreting 2D models using RAS Mapper in HEC-RAS"
+                     data-date="Jul 2025"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="HEC-RAS"
+                     data-images='["assets/UDEMY HECRAS/8.png", "assets/UDEMY HECRAS/1.png", "assets/UDEMY HECRAS/2.png", "assets/UDEMY HECRAS/3.png", "assets/UDEMY HECRAS/4.png", "assets/UDEMY HECRAS/5.png", "assets/UDEMY HECRAS/6.png", "assets/UDEMY HECRAS/7.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/UDEMY HECRAS/9.png" alt="HEC-RAS UDEMY">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">Practical Introduction to 2D River Modelling in HEC-RAS</h3>
+                        <p class="project-desc">Udemy</p>
+                    </div>
+                </div>
+                <!-- 4.2 UDEMY REVIT -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="Revit Structure Beginners to Advanced (Contractor Services)"
+                     data-date="Oct 2025"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Revit, Navisworks"
+                     data-images='["assets/UDEMY REVIT/1.png", "assets/UDEMY REVIT/2.png", "assets/UDEMY REVIT/3.png", "assets/UDEMY REVIT/4.png", "assets/UDEMY REVIT/5.png", "assets/UDEMY REVIT/6.png", "assets/UDEMY REVIT/7.png", "assets/UDEMY REVIT/8.png", "assets/UDEMY REVIT/9.png", "assets/UDEMY REVIT/10.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/UDEMY REVIT/11.png" alt="REVIT UDEMY">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">Revit Structure Beginners to Advanced (Contractor Services)</h3>
+                        <p class="project-desc">Udemy</p>
+                    </div>
+                </div>
+                <!-- 4.3 SESI MINERBA -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="Basic Hydrogeology and Groundwater Modelling in Opet Pit Mining"
+                     data-date="Jul 2025"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Modflow, Geostudio"
+                     data-images='["assets/SESIMINERBA MODFLOW/11.png", "assets/SESIMINERBA MODFLOW/1.png", "assets/SESIMINERBA MODFLOW/2.png", "assets/SESIMINERBA MODFLOW/3.png", "assets/SESIMINERBA MODFLOW/4.png", "assets/SESIMINERBA MODFLOW/5.png", "assets/SESIMINERBA MODFLOW/6.png", "assets/SESIMINERBA MODFLOW/7.png", "assets/SESIMINERBA MODFLOW/8.png", "assets/SESIMINERBA MODFLOW/9.png", "assets/SESIMINERBA MODFLOW/10.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/SESIMINERBA MODFLOW/1.jpg" alt="MODFLOW">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">Basic Hydrogeology and Groundwater Modelling in Opet Pit Mining</h3>
+                        <p class="project-desc">Sesi Minerba</p>
+                    </div>
+                </div>
+                <!-- 4.4 Kursus Sipil Geostudio -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="Study on the Mitigation of Slope Failure and Seepage Downstream of a Dam via Back Analysis Method Using GeoStudio Software in Accordance with SNI 8460:2017"
+                     data-date="Jul 2023"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Geostudio"
+                     data-images='["assets/Kursus Sipil Geostudio/1.png", "assets/Kursus Sipil Geostudio/2.png", "assets/Kursus Sipil Geostudio/3.png", "assets/Kursus Sipil Geostudio/4.png", "assets/Kursus Sipil Geostudio/5.png", "assets/Kursus Sipil Geostudio/6.png", "assets/Kursus Sipil Geostudio/7.png", "assets/Kursus Sipil Geostudio/8.png", "assets/Kursus Sipil Geostudio/9.png", "assets/Kursus Sipil Geostudio/10.png", "assets/Kursus Sipil Geostudio/11.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/Kursus Sipil Geostudio/1.webp" alt="GEOSTUDIO">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">DAM Stability Analysis<br>(SNI 8460-2017)</h3>
+                        <p class="project-desc">Kursus Sipil</p>
+                    </div>
+                </div>
+                <!-- 4.5 SWMM Kursus Sipil -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="Developing Alternative Flood Control Solution Models, Construction Time, and Roughness Cost Calculation with SWMM"
+                     data-date="Jun 2024"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="SWMM"
+                     data-images='["assets/SWMM Kursus Sipil/1.png", "assets/SWMM Kursus Sipil/2.png", "assets/SWMM Kursus Sipil/3.png", "assets/SWMM Kursus Sipil/4.png", "assets/SWMM Kursus Sipil/5.png", "assets/SWMM Kursus Sipil/6.png", "assets/SWMM Kursus Sipil/7.png", "assets/SWMM Kursus Sipil/8.png", "assets/SWMM Kursus Sipil/9.png", "assets/SWMM Kursus Sipil/10.png", "assets/SWMM Kursus Sipil/11.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/SWMM Kursus Sipil/1.webp" alt="SWMM">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">Developing Alternative Flood Control Solution Models with SWMM</h3>
+                        <p class="project-desc">Kursus Sipil</p>
+                    </div>
+                </div>
+                <!-- 4.6 Delft3D Kursus Sipil -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="Delft3D Extreme Wave Modelling, Study Case : Breakwater"
+                     data-date="Jun 2024"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Delft3D"
+                     data-images='["assets/DELFT3D/1.png", "assets/DELFT3D/2.png", "assets/DELFT3D/3.png", "assets/DELFT3D/4.png", "assets/DELFT3D/5.png", "assets/DELFT3D/6.png", "assets/DELFT3D/7.png", "assets/DELFT3D/8.png", "assets/DELFT3D/9.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/DELFT3D/1.jpg" alt="DELFT3D">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">Delft3D Extreme Wave Modelling, Study Case : Breakwater</h3>
+                        <p class="project-desc">Kursus Sipil</p>
+                    </div>
+                </div>
+                <!-- 4.7 Plaxis Kursus Sipil -->
+                <div class="project-card glass-card" 
+                     data-category="course"
+                     data-fulltitle="Exclusive Beginner-Level Geotechnical Training with Plaxis 2D"
+                     data-date="Nov 2024"
+                     data-location="Online Certification"
+                     data-fulldesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                     data-tools="Delft3D"
+                     data-images='["assets/PLAXIS2D/1.png", "assets/PLAXIS2D/2.png", "assets/PLAXIS2D/3.png", "assets/PLAXIS2D/4.png", "assets/PLAXIS2D/5.png", "assets/PLAXIS2D/6.png", "assets/PLAXIS2D/7.png", "assets/PLAXIS2D/8.png", "assets/PLAXIS2D/9.png", "assets/PLAXIS2D/10.png", "assets/PLAXIS2D/11.png", "assets/PLAXIS2D/12.png", "assets/PLAXIS2D/13.png", "assets/PLAXIS2D/14.png", "assets/PLAXIS2D/15.png", "assets/PLAXIS2D/16.png", "assets/PLAXIS2D/17.png"]'
+                >
+                    <div class="project-image">
+                        <img src="assets/PLAXIS2D/1.jpg" alt="PLAXIS 2D">
+                        <div class="project-overlay">
+                            <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag tag-course">Course</span>
+                        <h3 class="project-title">Geotechnical Training with Plaxis 2D</h3>
+                        <p class="project-desc">Kursus Sipil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact" class="page-section">
+        <div class="section-container fade-scroll">
+            <h2 class="section-title text-center">Get In <span>Touch</span></h2>
+            <p class="text-center contact-subtitle">Feel free to reach out for collaborations, project inquiries, or just to say hi.</p>
+            
+            <div class="contact-grid">
+                
+                <!-- 1. Phone / WhatsApp -->
+                <!-- Ganti wa.me/62... dengan nomor Anda. Awali dengan 62 tanpa angka 0 di depan -->
+                <a href="https://wa.me/628211385408" target="_blank" class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Phone</h3>
+                    <p>+62 821-1385-408</p>
+                </a>
+
+                <!-- 2. Email -->
+                <!-- Ganti emailnya dengan email asli Anda -->
+                <a href="mailto:agilherlambangskuy@gmail.com" class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>agilherlambangskuy@gmail.com</p>
+                </a>
+
+                <!-- 3. LinkedIn -->
+                <!-- Ganti link href dengan link profil LinkedIn Anda -->
+                <a href="https://www.linkedin.com/in/agil-herlambang-masadi-53a1b220a/" target="_blank" class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>Agil Herlambang Masadi</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/agil-herlambang-masadi-53a1b220a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <a href="assets/Agil Herlambang Masadi_CV.pdf" class="resume-btn" download>
+            RESUME <i class="fas fa-arrow-down"></i>
+        </a>
+    </footer>
+
+    <!-- ========================================= -->
+    <!-- PROJECT DETAILS MODAL (POP-UP) -->
+    <!-- ========================================= -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-container glass-card">
+            
+            <!-- Tombol Tutup (Close) -->
+            <button class="modal-close-btn"><i class="fas fa-times"></i></button>
+
+            <!-- Bagian Kiri: Galeri Gambar -->
+            <div class="modal-gallery">
+                <div class="main-image-wrapper">
+                    <img id="modal-main-image" src="" alt="Project Main Image">
+                </div>
+                <!-- Thumbnail Gambar Tambahan -->
+                <div class="modal-thumbnails" id="modal-thumbnails">
+                    <!-- Thumbnail akan digenerate otomatis oleh JS -->
+                </div>
+            </div>
+
+            <!-- Bagian Kanan: Detail Teks -->
+            <div class="modal-details">
+                <span id="modal-tag" class="project-tag"></span>
+                <h2 id="modal-title" class="modal-title"></h2>
+                
+                <div class="modal-meta">
+                    <p><i class="fas fa-calendar-alt"></i> <span id="modal-date"></span></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span id="modal-location"></span></p>
+                </div>
+
+                <div class="modal-description">
+                    <h3>About the Project</h3>
+                    <p id="modal-desc"></p>
+                    
+                    <h3>Tools Used</h3>
+                    <div id="modal-tools" class="skills-grid" style="margin-top: 10px;">
+                        <!-- Badge tools akan digenerate otomatis oleh JS -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
